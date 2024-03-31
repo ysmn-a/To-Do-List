@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+   <div class="todo-app">
+       <h2> Créez votre To-Do List ! <img src="images/icon_to_do_list.png"></h2>
+       <div class="row">
+            <input type="text" id="input-box" placeholder="Entrez vos tâches"> 
+            <button onclick="addTask()">Go</button>
+        </div>
+        <ul id="list-container">
+            <!--li class="checked">Tâche 1</li>
+            <li>Tâche 2</li>
+            <li>Tâche 3</li>-->
+       </ul>
+    </div>
+    <div class="moon">
+        <span class="moon-icon">&#x1F314;</span>
+      </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
